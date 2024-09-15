@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="papa"/>
+        <attribute name="name" value="flowchart-posttest2"/>
         <attribute name="authors" value="ridho"/>
         <attribute name="about" value=""/>
         <attribute name="saved" value="2024-09-15 07:19:59 AM"/>
