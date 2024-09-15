@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="papa"/>
+        <attribute name="authors" value="ridho"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-15 07:19:59 AM"/>
+        <attribute name="created" value="cmlkaG87UklESE8tQVNQSVJFLUEzOzIwMjQtMDktMTQ7MTA6NDY6NDcgUE07Mjg1NA=="/>
+        <attribute name="edited" value="cmlkaG87UklESE8tQVNQSVJFLUEzOzIwMjQtMDktMTU7MDc6MTk6NTkgQU07NDsyOTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="diskonBerasMawar, diskonBerasSani, diskonBerasMaknyus, hargaBeras, inputNIM" type="Integer" array="False" size=""/>
+            <declare name="inputNama" type="String" array="False" size=""/>
+            <output expression="&quot;Masukkan nama lengkap&quot;" newline="True"/>
+            <input variable="inputNama"/>
+            <output expression="&quot;Masukkan NIM&quot;" newline="True"/>
+            <input variable="inputNIM"/>
+            <output expression="&quot;Masukkan Harga beras&quot;" newline="True"/>
+            <input variable="hargaBeras"/>
+            <assign variable="diskonBerasMawar" expression="hargaBeras - (0.11/100 * hargaBeras)"/>
+            <assign variable="diskonBerasSani" expression="hargaBeras - (0.14/100 * hargaBeras)"/>
+            <assign variable="diskonBerasMaknyus" expression="hargaBeras - (0.17/100 * hargaBeras)"/>
+            <output expression="inputNama &amp; &quot; dengan NIM &quot; &amp; inputNIM &amp; &quot; ingin membeli beras seharga Rp&quot; &amp; hargaBeras &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot; Jika dia membeli beras Mawar ia harus membayar Rp&quot; &amp; diskonBerasMawar &amp; &quot; setelah mendapat diskon 11%.&quot;" newline="True"/>
+            <output expression="&quot; Jika dia membeli beras Sani ia harus membayar Rp&quot; &amp; diskonBerasSani &amp; &quot; setelah mendapat diskon 14%.&quot;" newline="True"/>
+            <output expression="&quot; Jika dia membeli beras Maknyus ia harus membayar Rp&quot; &amp; diskonBerasMaknyus &amp; &quot; setelah mendapat diskon 17%.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
