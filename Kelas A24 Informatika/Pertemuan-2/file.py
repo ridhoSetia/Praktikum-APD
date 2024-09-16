@@ -36,18 +36,13 @@ print(nama[0:8])
 print(nama[:-5])
 
 # BOOLEAN
-benar = True
-salah = False
-print(benar)
-print(salah)
+T = True
+F = False
 
-a = 7
-b = 8
-
-if(a<b):
-    print(benar)
-if(a>b):
-    print(salah)
+# AND
+print(T * T) # 1
+print(T * F) # 0
+print(F * F) # 0
 
 # LIST
 makanan = ["bakso", "mie ayam", "sate", "nasi goreng", "ayam goreng", "pizza"]
