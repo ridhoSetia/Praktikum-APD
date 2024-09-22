@@ -4,9 +4,10 @@
         <attribute name="name" value="algoritma cicilan pinjaman"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-09 03:06:50 PM"/>
+        <attribute name="saved" value="2024-09-21 09:41:47 PM"/>
         <attribute name="created" value="QUNFUjtMQVBUT1AtMks1OE1PUjQ7MjAyNC0wOS0wNzswOTozODozMSBQTTsyNjA4"/>
         <attribute name="edited" value="QUNFUjtMQVBUT1AtMks1OE1PUjQ7MjAyNC0wOS0wOTswMzowNjo1MCBQTTs4OzI3MTU="/>
+        <attribute name="edited" value="cmlkaG87UklESE8tQVNQSVJFLUEzOzIwMjQtMDktMjE7MDk6NDE6NDcgUE07MjsyOTY0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
