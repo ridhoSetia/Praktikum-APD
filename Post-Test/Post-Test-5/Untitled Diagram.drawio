@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="psaYRLWhJM1OXI5JUv1E">
-    <mxGraphModel dx="3400" dy="3680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2800" dy="3331" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -632,10 +632,13 @@
         <mxCell id="NOvvM2GgEK_qxQKfHSVW-118" value="inputHapus" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="889.5" y="-435" width="145" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="NOvvM2GgEK_qxQKfHSVW-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="NOvvM2GgEK_qxQKfHSVW-120">
+        <mxCell id="NOvvM2GgEK_qxQKfHSVW-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="NOvvM2GgEK_qxQKfHSVW-347">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1184" y="790" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NOvvM2GgEK_qxQKfHSVW-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOvvM2GgEK_qxQKfHSVW-120" target="NOvvM2GgEK_qxQKfHSVW-347">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOvvM2GgEK_qxQKfHSVW-120" value="del data_customers[inputHapus]" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="857" y="-344.5" width="212" height="56" as="geometry" />
@@ -1046,6 +1049,14 @@
         </mxCell>
         <mxCell id="NOvvM2GgEK_qxQKfHSVW-342" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1010" y="189" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NOvvM2GgEK_qxQKfHSVW-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="NOvvM2GgEK_qxQKfHSVW-347">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290.025641025641" y="-242.48717948717922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NOvvM2GgEK_qxQKfHSVW-347" value="Customer berhasil dihapus" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="-268" width="139" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
