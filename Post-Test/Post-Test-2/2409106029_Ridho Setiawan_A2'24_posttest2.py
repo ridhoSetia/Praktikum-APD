@@ -15,7 +15,7 @@ hargaBerasSani = int(hargaBeras - (0.14 * hargaBeras))
 diskonBerasMaknyus = int(hargaBeras - (0.17 * hargaBeras))
 
 # menampilkan output
-print(f"{inputNama} dengan NIM {inputNIM} ingin membeli beras seharga Rp{hargaBeras}") 
+print(f"{inputNama} dengan NIM {inputNIM} ingin membeli beras seharga Rp{hargaBeras}")
 print(f"Jika dia membeli beras Mawar ia harus membayar Rp{hargaBerasMawar} Setelah mendapat diskon 11%.")
 print(f"Jika dia membeli beras Sani ia harus membayar Rp{hargaBerasSani} Setelah mendapat diskon 14%.")
 print(f"Jika dia membeli beras Maknyus ia harus membayar Rp{diskonBerasMaknyus} Setelah mendapat diskon 17%.")
